@@ -1,0 +1,21 @@
+<template name="app_layout">
+    <body>
+    {{> app_header}}
+    {{> app_sidebar}}
+    {{> Template.dynamic template=content}}
+    {{> app_footer}}
+    {{> app_end}}
+    </body>
+</template>
+
+
+<template name="app_layout_saved">
+    {{> app_head}}
+    <body>
+    {{> app_header}}
+    {{> app_sidebar}}
+    {{> Template.dynamic template=content}}
+    {{> app_footer}}
+    {{> app_end}}
+    </body>
+</template>
