@@ -1,21 +1,28 @@
 <template name="app_layout">
-    <body>
-    {{> app_header}}
-    {{> app_sidebar}}
-    {{> Template.dynamic template=content}}
-    {{> app_footer}}
+    <body class="loaded">
+    <div class="main-wrapper">
+        <div class="app" id="app">
+            {{> app_header}}
+            {{> app_sidebar}}
+
+            {{> app_footer}}
+        </div>
+    </div>
     {{> app_end}}
     </body>
 </template>
 
 
 <template name="app_layout_saved">
-    {{> app_head}}
-    <body>
-    {{> app_header}}
-    {{> app_sidebar}}
-    {{> Template.dynamic template=content}}
-    {{> app_footer}}
+    <body class="loaded">
+    <div class="main-wrapper">
+        <div class="app" id="app">
+            {{> app_header}}
+            {{> app_sidebar}}
+            {{>Template.dynamic template=content}}
+            {{> app_footer}}
+        </div>
+    </div>
     {{> app_end}}
     </body>
 </template>
