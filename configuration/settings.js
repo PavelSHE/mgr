@@ -1,0 +1,1 @@
+export const allowedLogins = ["one@dcure.com","two@dcure.com"];
