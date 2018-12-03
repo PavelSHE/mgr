@@ -1,5 +1,6 @@
 import {allowedLogins} from '../../../configuration/settings';
 
+
 Template.signup.events({
   'submit form': function(event) {
     event.preventDefault();
@@ -14,6 +15,11 @@ Template.signup.events({
       email: emailVar,
       password: passwordVar
     });
+    Meteor.loginWithPassword(emailVar, passwordVar);
+    Meteor.call('farm.default',(error,result)=>{
+      if(error) return false;
+      if(result) return true;
+    });
   }
 });
 
@@ -23,6 +29,9 @@ Template.signin.events({
     const emailVar = event.target.signupEmail.value;
     const passwordVar = event.target.signupPassword.value;
     Meteor.loginWithPassword(emailVar, passwordVar);
+    // Meteor.call('farm.default',emailVar,(error,result)=>{
+    //     if(error) return false;
+    // });
   }
 });
 

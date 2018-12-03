@@ -23,3 +23,5 @@ kadira:blaze-layout
 kadira:flow-router
 fortawesome:fontawesome
 accounts-password
+kurounin:pagination
+kurounin:pagination-blaze

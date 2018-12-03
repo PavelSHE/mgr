@@ -1,5 +1,7 @@
 import { Meteor } from 'meteor/meteor';
+import {systemIDs} from "./internals/IDs.system";
 
 Meteor.startup(() => {
-  // code to run on server at startup
+  // create base objects for systemIDs
+    systemIDs.init();
 });
