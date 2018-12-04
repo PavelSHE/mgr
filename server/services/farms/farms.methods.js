@@ -2,7 +2,7 @@ import {farms} from "../../../lib/collections/farms.collection";
 import {systemIDs} from "../../internals/IDs.system";
 import {systemObjects, systemRoles} from "../../internals/constants.system";
 import {permissions} from "../permissions/permissions.model";
-import {getUser} from "../../internals/users.system";
+import{getUser} from '../../../lib/services/users.system';
 
 Meteor.methods({
     'farm.default'() {

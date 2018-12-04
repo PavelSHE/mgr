@@ -1,7 +1,11 @@
-<template name="farms">
-<div class="collection">
-    <div>
+<template name="farmsTemplate">
+    <ul>
+        {{#each tasks}}
+            {{> task}}
+        {{/each}}
+    </ul>
+</template>
 
-    </div>
-</div>
+<template name="task">
+    <li>{{text}}</li>
 </template>
