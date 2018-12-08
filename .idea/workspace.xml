@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="865b9c72-da9d-49c6-a140-24be44d3aceb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/elements/app_login/app_login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/elements/app_login/app_login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/elements/app_sidebar/sidebarFarm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/css/dcure.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/css/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.meteor/packages" beforeDir="false" afterPath="$PROJECT_DIR$/.meteor/packages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.meteor/versions" beforeDir="false" afterPath="$PROJECT_DIR$/.meteor/versions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/elements/app_footer/app_footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/elements/app_footer/app_footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/elements/app_header/app_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/elements/app_header/app_header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/elements/app_header/app_header.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/elements/app_header/app_header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/elements/app_sidebar/app_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/elements/app_sidebar/app_sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/elements/app_sidebar/app_sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/elements/app_sidebar/app_sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/elements/page_dashboard/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/page_dashboard/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/elements/page_dashboard/dashboard.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/page_dashboard/dashboard.router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/elements/page_farms/farms.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/page_farms/farms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/elements/page_farms/farms.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/page_farms/farms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/elements/page_farms/farms.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/page_farms/farms.router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/elements/page_login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/page_login/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/elements/page_login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/page_login/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/elements/page_login/login.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/page_login/login.router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/layouts/app.layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/layouts/app.layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/css/vendor.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/css/vendor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/routerGroups/private.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/routerGroups/private.router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/routerGroups/public.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/routerGroups/public.router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/services/users.system.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/users.system.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/services/farms/farms.methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/services/farms/farms.methods.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/services/farms/farms.publication.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/services/farms/farms.publication.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -65,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/elements/app_header/app_header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="555">
+              <caret line="37" column="3" lean-forward="true" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -424,7 +397,7 @@
       <workItem from="1543952151540" duration="20000" />
       <workItem from="1543956147561" duration="1367000" />
       <workItem from="1544113278862" duration="8379000" />
-      <workItem from="1544283120818" duration="4821000" />
+      <workItem from="1544283120818" duration="6961000" />
     </task>
     <task id="LOCAL-00001" summary="a1">
       <created>1543699540269</created>
@@ -440,24 +413,38 @@
       <option name="project" value="LOCAL" />
       <updated>1543751832877</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="login screen , logout">
+      <created>1544288018431</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544288018431</updated>
+    </task>
+    <task id="LOCAL-00004" summary="removed unused dependencies">
+      <created>1544297192733</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544297192733</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47111000" />
+    <option name="totallyTimeSpent" value="49251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1920" height="1052" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25720385" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25720385" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.25831485" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.25831485" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -500,7 +487,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="a1" />
     <MESSAGE value="template ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="template ready" />
+    <MESSAGE value="login screen , logout" />
+    <MESSAGE value="removed unused dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed unused dependencies" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/client/elements/app_head/app_head.html" />
@@ -846,8 +835,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/elements/app_header/app_header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="555">
+          <caret line="37" column="3" lean-forward="true" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
         </state>
       </provider>
     </entry>
