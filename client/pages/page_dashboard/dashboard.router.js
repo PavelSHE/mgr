@@ -4,10 +4,10 @@
 //     }
 // });
 
-import {privateRoutes} from '../../../lib/routerGroups/private.router';
+// import {privateRoutes} from '../../../lib/routerGroups/private.router';
 
-privateRoutes.route('/', {
-      name: 'dashboard',
+FlowRouter.route('/', {
+      //name: 'dashboard',
       action: function() {
         BlazeLayout.render('app_layout', {content: 'dashboard'});
       }

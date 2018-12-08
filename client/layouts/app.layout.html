@@ -1,28 +1,19 @@
 <template name="app_layout">
-    <body class="loaded">
-    <div class="main-wrapper">
-        <div class="app" id="app">
-            {{> app_header}}
-            {{> app_sidebar}}
-
-            {{> app_footer}}
+    {{#if currentUser}}
+        <body class="loaded">
+        <div class="main-wrapper">
+            <div class="app" id="app">
+                {{> app_header}}
+                {{> app_sidebar}}
+                {{> Template.dynamic template=content}}
+                {{> app_footer}}
+            </div>
         </div>
-    </div>
-    {{> app_end}}
-    </body>
+        {{> app_end}}
+        </body>
+    {{else}}
+        {{> app_login}}
+    {{/if}}
 </template>
 
 
-<template name="app_layout_saved">
-    <body class="loaded">
-    <div class="main-wrapper">
-        <div class="app" id="app">
-            {{> app_header}}
-            {{> app_sidebar}}
-            {{>Template.dynamic template=content}}
-            {{> app_footer}}
-        </div>
-    </div>
-    {{> app_end}}
-    </body>
-</template>
