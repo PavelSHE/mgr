@@ -23,12 +23,9 @@
                             <i class="fa arrow"></i>
                         </a>
                         <ul class="sidebar-nav collapse " aria-expanded="false">
-                            <li>
-                                <a href="items-list.html"> Items List </a>
-                            </li>
-                            <li>
-                                <a href="item-editor.html"> Item Editor </a>
-                            </li>
+                            {{#each sidebarFarms}}
+                                {{> sidebarFarm}}
+                            {{/each}}
                         </ul>
                     </li>
                 </ul>
