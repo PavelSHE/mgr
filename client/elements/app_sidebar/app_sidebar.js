@@ -32,7 +32,7 @@ Template.app_sidebar.events({
 
 Template.app_sidebar.helpers({
     sidebarFarms (){
-        console.log("getting farms");
+        //console.log("getting farms");
         return farmsCollection.find({owner : getUser()});
     }
 });
