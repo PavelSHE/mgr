@@ -1,52 +1,39 @@
 <template name="page_farm">
-    <article class="content">
-        <section class="section">
-            <h1>test</h1><div class="card">
-            <div class="card-block">
-                <div class="card-title-block">
-                    <h3 class="title"> {{ farmName}} </h3>
-                </div>
-                <section class="example">
-                    <table class="table table-inverse">
-                        <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>First Name</th>
-                            <th>Last Name</th>
-                            <th>Username</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>Larry</td>
-                            <td>the Bird</td>
-                            <td>@twitter</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">4</th>
-                            <td>Larry</td>
-                            <td>the Bird</td>
-                            <td>@twitter</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </section>
-            </div>
+    <article class="content responsive-tables-page">
+        <div class="title-block">
+            <h1 class="title"> {{getFarmObject.name}} </h1>
+            <p class="title-description">
+                {{getFarmObject.description}}
+                <button type="button" class="btn btn-primary btn-sm rounded-s float-right app-add-box"
+                        data-toggle="modal" data-target="#myModal">
+                    Add box
+                </button>
+            </p>
         </div>
+        <section class="section">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-block">
+                            <div class="card-title-block">
+                                <h3 class="title"> Boxes for {{getFarmObject.objectID}} farm </h3>
+                            </div>
+                            <section class="example">
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-bordered table-hover">
+                                        {{{theadBoxesElement}}}
+                                        <tbody>
+                                        {{#each farmBoxes}}
+                                            {{>farmBoxRow}}
+                                        {{/each}}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </article>
-
 </template>

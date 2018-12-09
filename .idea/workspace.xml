@@ -2,16 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="865b9c72-da9d-49c6-a140-24be44d3aceb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/pages/page_farm/farm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pages/page_farm/farm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pages/page_farm/farm.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/pages/page_box/box.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/pages/page_box/box.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/pages/page_box/box.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/pages/page_dashboard/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/pages/page_farm/farmBoxRow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/collections/boxes.collection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/services/boxes/boxes.methods.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/elements/app_sidebar/app_sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/elements/app_sidebar/app_sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.meteor/packages" beforeDir="false" afterPath="$PROJECT_DIR$/.meteor/packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.meteor/versions" beforeDir="false" afterPath="$PROJECT_DIR$/.meteor/versions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/elements/app_login/app_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/elements/app_login/app_login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/elements/app_login/app_login.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/elements/app_login/app_login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/elements/app_sidebar/app_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/elements/app_sidebar/app_sidebar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/elements/app_sidebar/sidebarFarm.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/elements/app_sidebar/sidebarFarm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/page_farms/farms.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/page_farms/farms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/page_farms/farms.router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/layouts/app.layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/layouts/app.layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/page_dashboard/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/page_dashboard/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/page_farm/farm.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/page_farm/farm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/page_farm/farm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/page_farm/farm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/page_farm/farm.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/page_farm/farm.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/internals/constants.system.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/internals/constants.system.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,11 +35,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/pages/page_farm/farm.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/pages/page_farm/farmBoxRow.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+            <state relative-caret-position="345">
+              <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/elements/app_login/app_login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="51" column="95" selection-start-line="51" selection-start-column="95" selection-end-line="51" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/elements/app_login/app_login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/layouts/app.layout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/elements/app_sidebar/app_sidebar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#74#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/elements/app_sidebar/app_sidebar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/pages/page_box/box.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#52#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,17 +107,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/pages/page_farm/farm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="270">
+              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#74#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/pages/page_farm/farm.router.js">
+        <entry file="file://$PROJECT_DIR$/client/pages/page_login/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            <state>
+              <caret column="45" lean-forward="true" selection-start-column="45" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/pages/page_box/box.router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -57,8 +139,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -77,6 +159,10 @@
       <find>17</find>
       <find>.text-in</find>
       <find>one@</find>
+      <find>Meteor.call</find>
+      <find>prevent</find>
+      <find>onRe</find>
+      <find>clo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,15 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/elements/page_farms/farms.router.js" />
-        <option value="$PROJECT_DIR$/server/farms.methods.js" />
-        <option value="$PROJECT_DIR$/client/elements/app_paginator/template.html" />
-        <option value="$PROJECT_DIR$/lib/models/constants.js" />
-        <option value="$PROJECT_DIR$/lib/models/farms.model.js" />
-        <option value="$PROJECT_DIR$/lib/collections/farms.collection.js" />
-        <option value="$PROJECT_DIR$/server/internals/user.system.js" />
-        <option value="$PROJECT_DIR$/server/internals/users.system.js" />
-        <option value="$PROJECT_DIR$/server/internals/constants.system.js" />
         <option value="$PROJECT_DIR$/server/internals/IDs.system.js" />
         <option value="$PROJECT_DIR$/client/elements/page_login/login.router.js" />
         <option value="$PROJECT_DIR$/client/elements/page_dashboard/dashboard.router.js" />
@@ -115,27 +192,36 @@
         <option value="$PROJECT_DIR$/client/pages/page_dashboard/dashboard.router.js" />
         <option value="$PROJECT_DIR$/client/public/css/vendor.css" />
         <option value="$PROJECT_DIR$/client/public/css/login.css" />
-        <option value="$PROJECT_DIR$/client/elements/app_login/app_login.html" />
         <option value="$PROJECT_DIR$/server/internals/systemInit.js" />
         <option value="$PROJECT_DIR$/lib/services/users.system.js" />
         <option value="$PROJECT_DIR$/server/main.js" />
         <option value="$PROJECT_DIR$/server/services/farms/farms.methods.js" />
-        <option value="$PROJECT_DIR$/client/layouts/app.layout.html" />
         <option value="$PROJECT_DIR$/client/elements/app_header/app_header.html" />
-        <option value="$PROJECT_DIR$/client/elements/app_login/app_login.js" />
         <option value="$PROJECT_DIR$/client/elements/app_header/app_header.js" />
         <option value="$PROJECT_DIR$/client/elements/app_sidebar/app_sidebar.original.html" />
-        <option value="$PROJECT_DIR$/client/elements/app_sidebar/app_sidebar.html" />
         <option value="$PROJECT_DIR$/client/pages/page_farms/farms.js" />
         <option value="$PROJECT_DIR$/client/pages/page_farms/farms.router.js" />
-        <option value="$PROJECT_DIR$/client/pages/page_dashboard/dashboard.html" />
         <option value="$PROJECT_DIR$/client/pages/page_farms/farms.html" />
-        <option value="$PROJECT_DIR$/client/elements/app_sidebar/sidebarFarm.html" />
-        <option value="$PROJECT_DIR$/client/pages/page_farm/farm.js" />
         <option value="$PROJECT_DIR$/client/main.js" />
+        <option value="$PROJECT_DIR$/server/internals/constants.system.js" />
+        <option value="$PROJECT_DIR$/client/layouts/farm.layout.html" />
         <option value="$PROJECT_DIR$/client/pages/page_farm/farm.router.js" />
+        <option value="$PROJECT_DIR$/client/elements/app_sidebar/sidebarFarm.html" />
+        <option value="$PROJECT_DIR$/lib/collections/boxes.collection.js" />
+        <option value="$PROJECT_DIR$/server/services/boxes/boxes.methods.js" />
+        <option value="$PROJECT_DIR$/client/pages/page_box/box.html" />
+        <option value="$PROJECT_DIR$/client/pages/page_box/box.js" />
         <option value="$PROJECT_DIR$/client/elements/app_sidebar/app_sidebar.js" />
         <option value="$PROJECT_DIR$/client/pages/page_farm/farm.html" />
+        <option value="$PROJECT_DIR$/client/pages/page_box/box.router.js" />
+        <option value="$PROJECT_DIR$/client/pages/page_dashboard/dashboard.html" />
+        <option value="$PROJECT_DIR$/client/pages/page_dashboard/dashboard.js" />
+        <option value="$PROJECT_DIR$/client/elements/app_sidebar/app_sidebar.html" />
+        <option value="$PROJECT_DIR$/client/pages/page_farm/farm.js" />
+        <option value="$PROJECT_DIR$/client/pages/page_farm/farmBoxRow.html" />
+        <option value="$PROJECT_DIR$/client/layouts/app.layout.html" />
+        <option value="$PROJECT_DIR$/client/elements/app_login/app_login.js" />
+        <option value="$PROJECT_DIR$/client/elements/app_login/app_login.html" />
       </list>
     </option>
   </component>
@@ -153,139 +239,127 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="dcure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dcure" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dcure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dcure" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dcure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dcure" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="elements" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dcure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dcure" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="elements" type="462c0819:PsiDirectoryNode" />
-              <item name="app_header" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dcure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dcure" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="elements" type="462c0819:PsiDirectoryNode" />
               <item name="app_login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dcure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dcure" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="elements" type="462c0819:PsiDirectoryNode" />
               <item name="app_sidebar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dcure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dcure" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dcure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dcure" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dcure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dcure" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="page_box" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="page_dashboard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dcure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dcure" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="page_farm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dcure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dcure" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="page_login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dcure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dcure" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dcure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dcure" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
               <item name="configuration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dcure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dcure" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dcure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dcure" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="collections" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dcure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dcure" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="routerGroups" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dcure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dcure" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dcure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dcure" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dcure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dcure" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="indexes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dcure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dcure" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="internals" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dcure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dcure" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dcure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dcure" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="boxes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
               <item name="farms" type="462c0819:PsiDirectoryNode" />
@@ -294,6 +368,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,17 +386,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.mongoOptions" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/client/elements/app_sidebar" />
-      <recent name="$PROJECT_DIR$/client/elements/app_paginator" />
-      <recent name="$PROJECT_DIR$/client/layouts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client/pages" />
       <recent name="$PROJECT_DIR$/lib/services" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/server/services/permissions" />
       <recent name="$PROJECT_DIR$/server/services/farms" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/layouts" />
+      <recent name="$PROJECT_DIR$/client/elements/app_sidebar" />
+      <recent name="$PROJECT_DIR$/client/elements/app_paginator" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -367,6 +442,7 @@
       <workItem from="1543956147561" duration="1367000" />
       <workItem from="1544113278862" duration="8379000" />
       <workItem from="1544283120818" duration="10107000" />
+      <workItem from="1544349530597" duration="6981000" />
     </task>
     <task id="LOCAL-00001" summary="a1">
       <created>1543699540269</created>
@@ -414,20 +490,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52397000" />
+    <option name="totallyTimeSpent" value="64322000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="28" width="1920" height="1052" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25720385" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28112894" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.25831485" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32852387" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25754312" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -439,7 +515,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Mongo Explorer" order="3" visible="true" weight="0.15528281" />
+      <window_info anchor="right" id="Mongo Explorer" order="3" visible="true" weight="0.15716657" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25720385" />
@@ -475,43 +551,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="removed unused dependencies" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/elements/app_head/app_head.html" />
-    <entry file="file://$PROJECT_DIR$/client/public/js/vendor.js" />
-    <entry file="file://$PROJECT_DIR$/client/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.meteor/versions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-522" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/layouts/login.layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/layouts/blank.layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/elements/app_paginator/template.html.tpl" />
-    <entry file="file://$USER_HOME$/.meteor/packages/npm-mongo/.3.1.1.1ppa6aa.kzds++os+web.browser+web.browser.legacy+web.cordova/npm/node_modules/mongodb-core/lib/cursor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="247" column="24" selection-start-line="247" selection-start-column="24" selection-end-line="247" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/models/farms.model.js" />
     <entry file="file://$PROJECT_DIR$/client/elements/app_paginator/template.js" />
     <entry file="file://$PROJECT_DIR$/client/public/js/app.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
@@ -528,20 +567,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/internals/IDs.system.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/internals/constants.system.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -562,24 +591,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/collections/farms.collection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/public/css/dcure.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.meteor/packages">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -652,16 +667,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/page_login/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/internals/systemInit.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/server/internals/systemInit.js" />
     <entry file="file://$PROJECT_DIR$/configuration/settings.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -669,51 +675,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/page_login/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="9" selection-start-line="13" selection-start-column="7" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/services/farms/farms.methods.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/services/users.system.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/elements/app_login/app_login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/elements/app_login/app_login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -732,65 +697,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/elements/app_header/app_header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/elements/app_sidebar/app_sidebar.original.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/page_dashboard/dashboard.router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/page_dashboard/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/layouts/app.layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/elements/app_sidebar/app_sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/elements/app_sidebar/app_sidebar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/elements/app_sidebar/sidebarFarm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -804,24 +714,214 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/page_farm/farm.js">
+    <entry file="file://$PROJECT_DIR$/server/internals/IDs.system.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.meteor/platforms">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.meteor/packages">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/layouts/farm.layout.html" />
+    <entry file="file://$PROJECT_DIR$/client/elements/app_sidebar/sidebarFarm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/farms.collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/elements/app_header/app_header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/boxes.collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/services/boxes/boxes.methods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/pages/page_farm/farm.router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        <state relative-caret-position="75">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/page_dashboard/dashboard.router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="49" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/services/farms/farms.methods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" column="58" lean-forward="true" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/page_login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/pages/page_farm/farm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        <state relative-caret-position="268">
+          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/page_box/box.router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/page_dashboard/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/page_dashboard/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#section#0;n#article#0;n#template#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/page_box/box.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/elements/app_sidebar/app_sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/page_box/box.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/page_login/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" lean-forward="true" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/page_farm/farm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/page_farm/farmBoxRow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/elements/app_sidebar/app_sidebar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/layouts/app.layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/elements/app_login/app_login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/elements/app_login/app_login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="51" column="95" selection-start-line="51" selection-start-column="95" selection-end-line="51" selection-end-column="95" />
         </state>
       </provider>
     </entry>

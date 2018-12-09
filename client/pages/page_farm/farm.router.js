@@ -1,5 +1,6 @@
-FlowRouter.route('/farm/:farmID', {
+FlowRouter.route('/f/:farmID', {
     action: function() {
-        BlazeLayout.render('app_layout', { main: 'page_farm' });
+        //console.log("going to farms");
+        BlazeLayout.render('app_layout', { content: 'page_farm' });
     }
 });
